@@ -64,4 +64,11 @@ extension PicksumVC: UITableViewDelegate, UITableViewDataSource {
             CommonHelper.showAlert(title: "Error!", message: "Checkbox is disabled.")
         }
     }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        let item = viewModel.items[indexPath.row]
+        let ratio = (item.width ?? 0) / (item.height ?? 1)
+        return tableView.frame.width / ratio
+    }
+    
 }
