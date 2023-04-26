@@ -11,10 +11,18 @@
 		041FA08A29F99090004D9CA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041FA08829F99090004D9CA6 /* Main.storyboard */; };
 		041FA08C29F99094004D9CA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041FA08B29F99094004D9CA6 /* Assets.xcassets */; };
 		041FA08F29F99094004D9CA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041FA08D29F99094004D9CA6 /* LaunchScreen.storyboard */; };
-		041FA09729F9913C004D9CA6 /* Splash Screen in Resources */ = {isa = PBXBuildFile; fileRef = 041FA09629F9913C004D9CA6 /* Splash Screen */; };
-		041FA09B29F9924A004D9CA6 /* Dashboard in Resources */ = {isa = PBXBuildFile; fileRef = 041FA09A29F9924A004D9CA6 /* Dashboard */; };
 		041FA09D29F992C0004D9CA6 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FA09C29F992C0004D9CA6 /* UIViewController+Extension.swift */; };
 		041FA0A029F992F2004D9CA6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FA09F29F992F2004D9CA6 /* Constants.swift */; };
+		041FA0A829F99CC0004D9CA6 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FA0A729F99CC0004D9CA6 /* UIImageView+Extension.swift */; };
+		041FA0AA29F99CEB004D9CA6 /* CommonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FA0A929F99CEB004D9CA6 /* CommonHelper.swift */; };
+		041FA0AD29F99D81004D9CA6 /* PicksumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FA0AC29F99D81004D9CA6 /* PicksumModel.swift */; };
+		041FA0B029F99DEB004D9CA6 /* PicksumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FA0AF29F99DEB004D9CA6 /* PicksumViewModel.swift */; };
+		041FA0B329F99E56004D9CA6 /* PicksumRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FA0B229F99E55004D9CA6 /* PicksumRepository.swift */; };
+		041FA0B929F99EDC004D9CA6 /* PicksumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FA0B829F99EDC004D9CA6 /* PicksumVC.swift */; };
+		041FA0BB29F99EDF004D9CA6 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FA0BA29F99EDF004D9CA6 /* SplashVC.swift */; };
+		041FA0BE29F9A130004D9CA6 /* PicksumTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041FA0B629F99ED1004D9CA6 /* PicksumTVC.xib */; };
+		041FA0BF29F9A135004D9CA6 /* PicksumTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FA0B729F99ED1004D9CA6 /* PicksumTVC.swift */; };
+		B067284FFB626A88E185CD7E /* Pods_PicksumAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3819FDC254C09EDA53FF8AC4 /* Pods_PicksumAPI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +32,20 @@
 		041FA08B29F99094004D9CA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041FA08E29F99094004D9CA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041FA09029F99094004D9CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		041FA09629F9913C004D9CA6 /* Splash Screen */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Splash Screen"; sourceTree = "<group>"; };
-		041FA09A29F9924A004D9CA6 /* Dashboard */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Dashboard; sourceTree = "<group>"; };
 		041FA09C29F992C0004D9CA6 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		041FA09F29F992F2004D9CA6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		041FA0A729F99CC0004D9CA6 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		041FA0A929F99CEB004D9CA6 /* CommonHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonHelper.swift; sourceTree = "<group>"; };
+		041FA0AC29F99D81004D9CA6 /* PicksumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicksumModel.swift; sourceTree = "<group>"; };
+		041FA0AF29F99DEB004D9CA6 /* PicksumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicksumViewModel.swift; sourceTree = "<group>"; };
+		041FA0B229F99E55004D9CA6 /* PicksumRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicksumRepository.swift; sourceTree = "<group>"; };
+		041FA0B629F99ED1004D9CA6 /* PicksumTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PicksumTVC.xib; sourceTree = "<group>"; };
+		041FA0B729F99ED1004D9CA6 /* PicksumTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicksumTVC.swift; sourceTree = "<group>"; };
+		041FA0B829F99EDC004D9CA6 /* PicksumVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicksumVC.swift; sourceTree = "<group>"; };
+		041FA0BA29F99EDF004D9CA6 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		12D07D1296ECB3259049CCE3 /* Pods-PicksumAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicksumAPI.release.xcconfig"; path = "Target Support Files/Pods-PicksumAPI/Pods-PicksumAPI.release.xcconfig"; sourceTree = "<group>"; };
+		3819FDC254C09EDA53FF8AC4 /* Pods_PicksumAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicksumAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78322081BD5DF3A899C2F228 /* Pods-PicksumAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicksumAPI.debug.xcconfig"; path = "Target Support Files/Pods-PicksumAPI/Pods-PicksumAPI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B067284FFB626A88E185CD7E /* Pods_PicksumAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +65,8 @@
 			children = (
 				041FA08129F99090004D9CA6 /* PicksumAPI */,
 				041FA08029F99090004D9CA6 /* Products */,
+				A37AA93347FB382A89E823F2 /* Pods */,
+				5A9DF854635CDB87328FE9BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +84,10 @@
 				041FA09F29F992F2004D9CA6 /* Constants.swift */,
 				041FA09829F9917B004D9CA6 /* Application */,
 				041FA09E29F992D3004D9CA6 /* Extensions */,
+				041FA0AB29F99CF1004D9CA6 /* Helper */,
+				041FA0AE29F99D87004D9CA6 /* Model */,
+				041FA0B129F99DEE004D9CA6 /* ViewModel */,
+				041FA0B429F99E5F004D9CA6 /* Repository */,
 				041FA09929F9919A004D9CA6 /* View */,
 				041FA08829F99090004D9CA6 /* Main.storyboard */,
 				041FA08B29F99094004D9CA6 /* Assets.xcassets */,
@@ -83,8 +108,8 @@
 		041FA09929F9919A004D9CA6 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				041FA09629F9913C004D9CA6 /* Splash Screen */,
-				041FA09A29F9924A004D9CA6 /* Dashboard */,
+				041FA0BD29F99F0E004D9CA6 /* Splash Screen */,
+				041FA0BC29F99EF1004D9CA6 /* Dashboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -93,8 +118,84 @@
 			isa = PBXGroup;
 			children = (
 				041FA09C29F992C0004D9CA6 /* UIViewController+Extension.swift */,
+				041FA0A729F99CC0004D9CA6 /* UIImageView+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		041FA0AB29F99CF1004D9CA6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				041FA0A929F99CEB004D9CA6 /* CommonHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		041FA0AE29F99D87004D9CA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				041FA0AC29F99D81004D9CA6 /* PicksumModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		041FA0B129F99DEE004D9CA6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				041FA0AF29F99DEB004D9CA6 /* PicksumViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		041FA0B429F99E5F004D9CA6 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				041FA0B229F99E55004D9CA6 /* PicksumRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		041FA0B529F99ED1004D9CA6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				041FA0B629F99ED1004D9CA6 /* PicksumTVC.xib */,
+				041FA0B729F99ED1004D9CA6 /* PicksumTVC.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		041FA0BC29F99EF1004D9CA6 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				041FA0B829F99EDC004D9CA6 /* PicksumVC.swift */,
+				041FA0B529F99ED1004D9CA6 /* Cell */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		041FA0BD29F99F0E004D9CA6 /* Splash Screen */ = {
+			isa = PBXGroup;
+			children = (
+				041FA0BA29F99EDF004D9CA6 /* SplashVC.swift */,
+			);
+			path = "Splash Screen";
+			sourceTree = "<group>";
+		};
+		5A9DF854635CDB87328FE9BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3819FDC254C09EDA53FF8AC4 /* Pods_PicksumAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A37AA93347FB382A89E823F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78322081BD5DF3A899C2F228 /* Pods-PicksumAPI.debug.xcconfig */,
+				12D07D1296ECB3259049CCE3 /* Pods-PicksumAPI.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 041FA09329F99094004D9CA6 /* Build configuration list for PBXNativeTarget "PicksumAPI" */;
 			buildPhases = (
+				A9A893DBE75FA2039373D8B2 /* [CP] Check Pods Manifest.lock */,
 				041FA07B29F99090004D9CA6 /* Sources */,
 				041FA07C29F99090004D9CA6 /* Frameworks */,
 				041FA07D29F99090004D9CA6 /* Resources */,
+				D8D97B6DE4CA238F653439A4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,24 +258,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041FA09729F9913C004D9CA6 /* Splash Screen in Resources */,
+				041FA0BE29F9A130004D9CA6 /* PicksumTVC.xib in Resources */,
 				041FA08F29F99094004D9CA6 /* LaunchScreen.storyboard in Resources */,
 				041FA08C29F99094004D9CA6 /* Assets.xcassets in Resources */,
-				041FA09B29F9924A004D9CA6 /* Dashboard in Resources */,
 				041FA08A29F99090004D9CA6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A9A893DBE75FA2039373D8B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PicksumAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8D97B6DE4CA238F653439A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PicksumAPI/Pods-PicksumAPI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PicksumAPI/Pods-PicksumAPI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PicksumAPI/Pods-PicksumAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		041FA07B29F99090004D9CA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041FA0B929F99EDC004D9CA6 /* PicksumVC.swift in Sources */,
+				041FA0BB29F99EDF004D9CA6 /* SplashVC.swift in Sources */,
+				041FA0BF29F9A135004D9CA6 /* PicksumTVC.swift in Sources */,
 				041FA09D29F992C0004D9CA6 /* UIViewController+Extension.swift in Sources */,
+				041FA0AA29F99CEB004D9CA6 /* CommonHelper.swift in Sources */,
+				041FA0AD29F99D81004D9CA6 /* PicksumModel.swift in Sources */,
 				041FA08329F99090004D9CA6 /* AppDelegate.swift in Sources */,
+				041FA0A829F99CC0004D9CA6 /* UIImageView+Extension.swift in Sources */,
 				041FA0A029F992F2004D9CA6 /* Constants.swift in Sources */,
+				041FA0B329F99E56004D9CA6 /* PicksumRepository.swift in Sources */,
+				041FA0B029F99DEB004D9CA6 /* PicksumViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +468,7 @@
 		};
 		041FA09429F99094004D9CA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78322081BD5DF3A899C2F228 /* Pods-PicksumAPI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -344,6 +497,7 @@
 		};
 		041FA09529F99094004D9CA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12D07D1296ECB3259049CCE3 /* Pods-PicksumAPI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

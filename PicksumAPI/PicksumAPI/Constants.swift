@@ -7,6 +7,8 @@
 
 import Foundation
 
+let kBaseUrl: String = "https://picsum.photos/v2/"
+
 enum AppStoryboard: String {
     case main = "Main"
 }
