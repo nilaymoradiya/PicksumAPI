@@ -19,21 +19,35 @@ class PicksumVC: UIViewController {
         }
     }
     
+    private var refreshControl = UIRefreshControl()
+    private var isLoadingMore = false
     var viewModel: PicksumViewModel = PicksumViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Do any additional setup after loading the view.
         setupUI()
         getImages()
     }
     
     func setupUI() {
         title = "Picksum"
+        refreshControl.addTarget(self, action: #selector(refresh(sender:)), for: UIControl.Event.valueChanged)
+        refreshControl.tintColor = .black
+        tableView.addSubview(refreshControl)
+    }
+    
+    @objc func refresh(sender: AnyObject?) {
+        viewModel.resetAllData()
+        tableView.reloadData()
+        getImages()
     }
     
     private func getImages() {
-        viewModel.getImages { response in
+        viewModel.getImges { response in
+            self.refreshControl.endRefreshing()
+            self.isLoadingMore = false
             self.tableView.reloadData()
         }
     }
@@ -71,4 +85,17 @@ extension PicksumVC: UITableViewDelegate, UITableViewDataSource {
         return tableView.frame.width / ratio
     }
     
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+        if !self.isLoadingMore {
+            let currentOffset = scrollView.contentOffset.y
+            let maximumOffset = scrollView.contentSize.height - scrollView.frame.size.height
+            // Change 10.0 to adjust the distance from bottom
+            if maximumOffset - currentOffset <= 10.0 {
+                if viewModel.isLoadMoreRecord {
+                    viewModel.page += 1
+                    getImages()
+                }
+            }
+        }
+    }
 }
